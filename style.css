@@ -192,7 +192,7 @@
 }
 
 /*-----------------------------------------------------------Responsive CSS-------------------------------------------------- */
-@media (max-width: 768px) {
+@media (max-width: 786px) {
     .container{
         width: 100%;
         height: 100vh;
@@ -280,13 +280,103 @@
         bottom: 100px;
         font-size: 18px;
     }
+}
+@media (max-width: 480px) {
 
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .container .navbar{
+        width: 100%;
+        height: 70px;
+        border: 1px solid white;
+    }
+    /* .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .container .navbar{
+        width: 100%;
+        height: 70px;
+    }
+    .navbar .logo img{
+        width: 120px;
+    }
+    .navbar .links{
+        display: none;
+    }
+    .navbar .login{
+        width: 25%;
+    }
+    .navbar .login ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .login ul .bar{
+        display: block;
+        width: 65px;
+        height: 70px;
+        background-color: rgb(182, 179, 179);
+        position: relative;
+    }
+    .login ul .bar img{
+        width: 35px;
+        position: absolute;
+        top: 15px;
+        left: 14px;
+    }
+    .navbar .login ul a{
+        display: none;
+    }
+    .navbar .login ul button{
+        font-size: 22px;
+    }
 
+    .container .hero-section{
+        padding-top: 40px;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .header p{
+        font-size: 19px;
+    }
+    .hero-section .text-part{
+        height: 330px;
+        padding-top: 0px;
+    }
+    .text-part .left{
+        padding-left: 55px;
+    }
+    .text-part .left ul input:first-child{
+        margin-bottom: 12px;
+    }
+    .text-part .left ul input:last-child{
+        margin-bottom: 12px;
+    }
+    .text-part .left ul button{
+        border-bottom: 1px solid black;
+    }
 
-
-
-
-
-
-
+    .text-part .right{
+        padding-left: 95px;
+    }
+    .right ul button:first-child {
+        margin-bottom: 12px;
+    }
+    .right ul button:nth-child(2){
+        margin-bottom: 12px;
+    }
+    .hero-section .slash{
+        font-size: 60px;
+        width: 30px;
+        padding-left: 20px;
+    }
+    .hero-section #password{
+        position: absolute;
+        left: 325px;
+        bottom: 100px;
+        font-size: 18px;
+    } */
 }
